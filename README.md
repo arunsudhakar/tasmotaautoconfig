@@ -12,13 +12,13 @@ In this mode, the config params are set for all Unconfigured Tasmota devices
 
 _Sample Json_
 
-{
+`{
    "config":{
       "SSID1":"TestNetwork",
       "Password1":"MyPassword",
       "Module":"29"
    }
-}
+}`
 
 
 ### 2. Device Specifi Config
@@ -26,7 +26,7 @@ In this mode, the config params are set based on the Tasmota device's MAC addres
 
 _Sample Json_
 
-{
+`{
    "f6:cf:a2:xx:xx:xx":{
       "SSID1":"MyNet",
       "Password1":"MyPass",
@@ -39,7 +39,7 @@ _Sample Json_
       "Module":"27",
       "MqttHost":"192.168.1.144"
    }
- }
+ }`
 
 P.S : The JSON file needs to be in a single line for some reason. This is a draft version and might not be buggy/unoptimized
 
