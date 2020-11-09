@@ -46,3 +46,5 @@ P.S : The JSON file needs to be in a single line for some reason. This is a draf
 
 
 
+### License
+This program is licensed under GPL-3.0
