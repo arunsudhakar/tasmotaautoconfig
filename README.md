@@ -43,6 +43,12 @@ _Sample Json_
 
 P.S : The JSON file needs to be in a single line for some reason. This is a draft version and might not be buggy/unoptimized
 
+### Usage
+
+1) Clone the code into your Arduino env and change any of the parameters if you need to based on your requirements and flash the ESPXX device.
+2) Create the JSON file and save it as tasmota.json and save it into the root folder of the SdCard.
+3) Power up the device and if you have access to the Serial Port,you can view the messages on the console. If not, wait a few minutes, or check and make sure all your TASMOTA_XXXX_XXXX open networks have disappeared from the list of networks.
+4) You can view the tasmotaflash.log file to view the log of the operation.
 
 
 
