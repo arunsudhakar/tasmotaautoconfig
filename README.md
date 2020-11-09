@@ -21,7 +21,7 @@ _Sample Json_
 }`
 
 
-### 2. Device Specifi Config
+### 2. Device Specific Config
 In this mode, the config params are set based on the Tasmota device's MAC address. This is useful if you need to configure multiple modules.
 
 _Sample Json_
